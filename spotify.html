@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #fff;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #1db954;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+        header nav ul li {
+            display: inline;
+        }
+        header nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .playlist {
+            margin-top: 20px;
+        }
+        .playlist img {
+            width: 50%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .playlist h2 {
+            margin: 10px 0 0 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Spotify</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Your Library</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-content">
+        <h2>Good Afternoon</h2>
+        <div class="playlist">
+            <img src="music1.png" alt="Playlist Image">
+            <h2>Daily Mix 1</h2>
+            <p>Your favorite songs, updated daily.</p>
+        </div>
+        <div class="playlist">
+            <img src="m2.jpeg" alt="Playlist Image">
+            <h2>Discover Weekly</h2>
+            <p>New music every Monday.</p>
+        </div>
+        <div class="playlist">
+            <img src="m3.png" alt="Playlist Image">
+            <h2>Release Radar</h2>
+            <p>Fresh tracks from artists you follow.</p>
+        </div>
+    </div>
+</body>
+</html>
